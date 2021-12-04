@@ -215,7 +215,10 @@
     },
     {
       "name": "Pseudo CSS",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "foreground": "{{ syntax.tango }}"
       }

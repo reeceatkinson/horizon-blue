@@ -6,12 +6,12 @@
 export default {
   data() {
     return {
-      active: true
+      active: true,
     };
   },
   methods: {
-    handleClick() {}
-  }
+    handleClick() {},
+  },
 };
 </script>
 

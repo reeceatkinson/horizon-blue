@@ -213,7 +213,10 @@
     },
     {
       "name": "Pseudo CSS",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "foreground": "{{ syntax.rosebud }}{{ alpha.high }}"
       }
@@ -407,7 +410,10 @@
     },
     {
       "name": "Template expressions",
-      "scope": ["punctuation.definition.template-expression", "punctuation.quasi.element"],
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.quasi.element"
+      ],
       "settings": {
         "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
       }

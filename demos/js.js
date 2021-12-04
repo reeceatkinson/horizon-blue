@@ -1,6 +1,6 @@
 let num = 29;
 var bool = true;
-const string = 'string';
+const string = "string";
 const template = `something${something}something${something()}`;
 const regex = /^abc|def[A-Z]$/gim;
 
@@ -30,7 +30,7 @@ try {
 } catch (err) {}
 
 const obj = {
-  a: something
+  a: something,
 };
 
 if (something) {
@@ -39,7 +39,7 @@ if (something) {
 }
 
 switch (something) {
-  case 'something':
+  case "something":
     break;
   default:
     break;
@@ -59,5 +59,5 @@ do {} while (something);
 
 debugger;
 
-import something from '';
+import something from "";
 export default something;

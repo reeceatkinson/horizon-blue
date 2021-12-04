@@ -1,9 +1,13 @@
-const fs = require('fs');
-const mustache = require('mustache');
+const fs = require("fs");
+const mustache = require("mustache");
 
-const globals = require('./globals.json');
+const globals = require("./globals.json");
 const template = JSON.stringify(require(`${__dirname}/template.json`));
-const themeNames = ['horizon-bright', 'horizon-bright-italic', 'horizon-bright-bold'];
+const themeNames = [
+  "horizon-bright",
+  "horizon-bright-italic",
+  "horizon-bright-bold",
+];
 
 for (themeName of themeNames) {
   const content = require(`${__dirname}/${themeName}.json`);

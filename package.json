@@ -8,7 +8,7 @@
   "license": "MIT",
   "icon": "logo.png",
   "scripts": {
-    "build": "npm run build:dark && npm run build:bright",
+    "build": "npm run build:dark && npm run build:bright && prettier . --write",
     "build:dark": "node src/dark/build",
     "build:bright": "node src/bright/build"
   },

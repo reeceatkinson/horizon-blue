@@ -139,9 +139,9 @@
     "gitDecoration.ignoredResourceForeground": "{{ ui.darkText }}{{ alpha.medLow }}",
     "breadcrumbPicker.background": "{{ ui.backgroundAlt }}"
   },
+  "semanticHighlighting": true,
   "tokenColors": [
     {
-      "name": "Comments",
       "scope": "comment",
       "settings": {
         "foreground": "{{ syntax.black }}{{ alpha.med }}",
@@ -149,35 +149,30 @@
       }
     },
     {
-      "name": "Constants",
       "scope": "constant",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
-      "name": "Escape characters",
       "scope": "constant.character.escape",
       "settings": {
         "foreground": "{{ syntax.elm }}"
       }
     },
     {
-      "name": "Named entities",
       "scope": "entity.name",
       "settings": {
         "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
-      "name": "Function names",
       "scope": "entity.name.function",
       "settings": {
         "foreground": "{{ syntax.elm }}"
       }
     },
     {
-      "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
         "foreground": "{{ syntax.crimson }}",
@@ -185,14 +180,12 @@
       }
     },
     {
-      "name": "Static types",
       "scope": ["entity.name.type", "storage.type.cs"],
       "settings": {
         "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
-      "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}",
@@ -200,21 +193,18 @@
       }
     },
     {
-      "name": "Inherited classes",
       "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "{{ syntax.tango }}"
       }
     },
     {
-      "name": "CSS ID selectors",
       "scope": "entity.other.attribute-name.id",
       "settings": {
         "foreground": "{{ syntax.elm }}"
       }
     },
     {
-      "name": "Pseudo CSS",
       "scope": [
         "entity.other.attribute-name.pseudo-element",
         "entity.other.attribute-name.pseudo-class"
@@ -224,14 +214,12 @@
       }
     },
     {
-      "name": "Variable names",
       "scope": ["entity.name.variable", "variable"],
       "settings": {
         "foreground": "{{ syntax.crimson }}"
       }
     },
     {
-      "name": "Keywords",
       "scope": "keyword",
       "settings": {
         "foreground": "{{ syntax.amethyst }}",
@@ -239,14 +227,12 @@
       }
     },
     {
-      "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
         "foreground": "{{ syntax.black }}"
       }
     },
     {
-      "name": "Special operators",
       "scope": [
         "keyword.operator.new",
         "keyword.operator.expression",
@@ -258,14 +244,12 @@
       }
     },
     {
-      "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
-      "name": "Markup quotes",
       "scope": "markup.quote",
       "settings": {
         "foreground": "{{ syntax.tango }}{{ alpha.highMed }}",
@@ -273,14 +257,12 @@
       }
     },
     {
-      "name": "Markup headings",
       "scope": ["markup.heading", "entity.name.section"],
       "settings": {
         "foreground": "{{ syntax.crimson }}"
       }
     },
     {
-      "name": "Markup bold",
       "scope": "markup.bold",
       "settings": {
         "foreground": "{{ syntax.amethyst }}",
@@ -288,7 +270,6 @@
       }
     },
     {
-      "name": "Markup italics",
       "scope": "markup.italic",
       "settings": {
         "foreground": "{{ syntax.elm }}",
@@ -296,21 +277,18 @@
       }
     },
     {
-      "name": "Markup code",
       "scope": ["markup.inline.raw", "markup.fenced_code.block"],
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
-      "name": "Markup links",
       "scope": "markup.underline.link",
       "settings": {
         "foreground": "{{ syntax.tango }}"
       }
     },
     {
-      "name": "Storage keywords",
       "scope": "storage",
       "settings": {
         "foreground": "{{ syntax.amethyst }}",
@@ -318,63 +296,54 @@
       }
     },
     {
-      "name": "Strings",
       "scope": ["string.quoted", "string.template"],
       "settings": {
         "foreground": "{{ syntax.tango }}"
       }
     },
     {
-      "name": "Regex",
       "scope": "string.regexp",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
-      "name": "Markup link descriptions",
       "scope": "string.other.link",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
-      "name": "Provided (support) values",
       "scope": "support",
       "settings": {
         "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
-      "name": "Provided functions",
       "scope": "support.function",
       "settings": {
         "foreground": "{{ syntax.elm }}"
       }
     },
     {
-      "name": "Provieded variables",
       "scope": "support.variable",
       "settings": {
         "foreground": "{{ syntax.crimson }}"
       }
     },
     {
-      "name": "Object/JSON property names",
       "scope": ["support.type.property-name", "meta.object-literal.key"],
       "settings": {
         "foreground": "{{ syntax.crimson }}"
       }
     },
     {
-      "name": "CSS property names",
       "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "{{ syntax.black }}"
       }
     },
     {
-      "name": "Language variables",
       "scope": ["variable.language"],
       "settings": {
         "foreground": "{{ syntax.jaffa }}",
@@ -382,21 +351,18 @@
       }
     },
     {
-      "name": "Parameters",
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Embedded template punctuation",
       "scope": "string.template meta.embedded",
       "settings": {
         "foreground": "{{ syntax.black }}"
       }
     },
     {
-      "name": "Tag brackets",
       "scope": "punctuation.definition.tag",
       "settings": {
         "foreground": "{{ syntax.crimson }}{{ alpha.highMed }}",
@@ -404,28 +370,24 @@
       }
     },
     {
-      "name": "Key/value separators",
       "scope": "punctuation.separator",
       "settings": {
         "foreground": "{{ syntax.black }}"
       }
     },
     {
-      "name": "Template expressions",
       "scope": "punctuation.definition.template-expression",
       "settings": {
         "foreground": "{{ syntax.amethyst }}"
       }
     },
     {
-      "name": "Embedded section punctuation",
       "scope": "punctuation.section.embedded",
       "settings": {
         "foreground": "{{ syntax.amethyst }}"
       }
     },
     {
-      "name": "Markup list punctuation",
       "scope": "punctuation.definition.list",
       "settings": {
         "foreground": "{{ syntax.thunderbird }}"

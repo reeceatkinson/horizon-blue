@@ -44,7 +44,7 @@ _For more info on theming, visit the [Theme Authoring Guide](https://code.visual
 
 To add a border between sections of the editor, add the following to your settings...
 
-```
+```json
 "workbench.colorCustomizations": {
   "contrastBorder": "#16161C"
 }
@@ -52,7 +52,7 @@ To add a border between sections of the editor, add the following to your settin
 
 Or for Bright variants...
 
-```
+```json
 "workbench.colorCustomizations": {
   "contrastBorder": "#1A1C231A"
 }
@@ -62,7 +62,7 @@ Or for Bright variants...
 
 The normal theme only uses italics in a few places. If you would prefer no italics at all, you can configure this in your settings...
 
-```
+```json
 "editor.tokenColorCustomizations": {
   "textMateRules": [
     {
@@ -80,7 +80,7 @@ The normal theme only uses italics in a few places. If you would prefer no itali
 
 For gray rather than red brackets around HTML tags...
 
-```
+```json
 "editor.tokenColorCustomizations": {
   "textMateRules": [
     {

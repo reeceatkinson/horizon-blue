@@ -6,15 +6,15 @@
 
 <p align="center">
   <!-- marketplace version -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
+  <a href="https://marketplace.visualstudio.com/items?itemName=alexandernanberg.horizon-theme-vscode">
     <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/alexandernanberg.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
   <!-- downloads -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
+  <a href="https://marketplace.visualstudio.com/items?itemName=alexandernanberg.horizon-theme-vscode">
     <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/alexandernanberg.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
   <!-- rating -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
+  <a href="https://marketplace.visualstudio.com/items?itemName=alexandernanberg.horizon-theme-vscode">
     <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/alexandernanberg.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
 </p>

@@ -1,22 +1,17 @@
 {
-  "name": "horizon-theme-vscode",
-  "version": "1.0.1",
-  "author": "Alexander Nanberg",
-  "displayName": "Horizon Theme",
-  "description": "A beautifully warm dual theme for Visual Studio Code",
-  "publisher": "alexandernanberg",
+  "name": "horizon-blue-theme-vscode",
+  "version": "1.0.0",
+  "author": "Reece Atkinson",
+  "displayName": "Horizon Blue",
+  "description": "A beautifully cool blue theme for Visual Studio Code",
+  "publisher": "reeceatkinson",
   "license": "MIT",
   "icon": "logo.png",
-  "scripts": {
-    "build": "npm run build:dark && npm run build:bright && prettier . --write",
-    "build:dark": "node src/dark/build",
-    "build:bright": "node src/bright/build"
-  },
   "engines": {
     "vscode": "^1.26.0"
   },
   "galleryBanner": {
-    "color": "#FCEAE5",
+    "color": "#D2E9FF",
     "theme": "light"
   },
   "categories": [
@@ -31,34 +26,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Horizon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/horizon.json"
-      },
-      {
-        "label": "Horizon Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/horizon-italic.json"
-      },
-      {
-        "label": "Horizon Bold",
+        "label": "Horizon Blue",
         "uiTheme": "vs-dark",
         "path": "./themes/horizon-bold.json"
-      },
-      {
-        "label": "Horizon Bright",
-        "uiTheme": "vs",
-        "path": "./themes/horizon-bright.json"
-      },
-      {
-        "label": "Horizon Bright Italic",
-        "uiTheme": "vs",
-        "path": "./themes/horizon-bright-italic.json"
-      },
-      {
-        "label": "Horizon Bright Bold",
-        "uiTheme": "vs",
-        "path": "./themes/horizon-bright-bold.json"
       }
     ]
   },
@@ -68,9 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandernanberg/horizon-theme-vscode"
-  },
-  "bugs": {
-    "url": "https://github.com/alexandernanberg/horizon-theme-vscode/issues"
+    "url": "https://github.com/reeceatkinson/horizon-blue"
   }
 }

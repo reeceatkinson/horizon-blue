@@ -1,10 +1,10 @@
 {
-  "name": "horizon-blue-theme-vscode",
+  "name": "horizon-blue",
   "version": "1.0.0",
   "author": "Reece Atkinson",
   "displayName": "Horizon Blue",
   "description": "A beautifully cool blue theme for Visual Studio Code",
-  "publisher": "reeceatkinson",
+  "publisher": "reece",
   "license": "MIT",
   "icon": "logo.png",
   "engines": {
@@ -16,12 +16,6 @@
   },
   "categories": [
     "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark",
-    "horizon",
-    "warm"
   ],
   "contributes": {
     "themes": [
